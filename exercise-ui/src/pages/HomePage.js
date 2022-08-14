@@ -43,7 +43,7 @@ function HomePage({ setExerciseToEdit }) {
 
     return (
         <div class="content">
-            <h1>Locamotivated</h1>
+            <h1>Locomotivated</h1>
             <ExerciseList exercises={exercises} 
                 onEdit={onEdit} 
                 onDelete={onDelete}>
