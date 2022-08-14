@@ -1,0 +1,137 @@
+body {
+  font-family: sans-serif;
+  background: 03045eff;
+  background-image: url('trainbridge.gif');
+  background-image: url('trainbridge.gif'), linear-gradient(#03045eff, #023e8aff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #caf0f8ff);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  margin-top: 10%;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+table {
+  max-height: 100px;
+  overflow: auto;
+  border-collapse: collapse;
+  background-color: #4E148C;
+  z-index:1;
+}
+
+td, th{
+  border: 2px solid #ddd;
+  
+}
+
+#exercises td, th {
+  padding: 1rem;
+}
+
+tr:nth-child(even){background-color: #858AE3;}
+tr:nth-child(odd){background-color: #7364D2;}
+
+tr:hover {background-color: #97DFFC;}
+
+th {
+  background-color: #4E148C;
+  color: white;
+  position: sticky;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 3vw;
+  color:#4E148C;
+  padding: 5px;
+}
+
+td input{
+  box-sizing: border-box;
+  float: center;
+  text-align:center;
+  min-height: 3.7rem;
+  min-width:100%;
+  max-width: 100%;
+  font-size: 1rem;
+}
+
+td select{
+  float: center;
+  width: 100%;
+  padding: 20px;
+}
+/*#addExercise {
+  position: relative;
+  width: 80%;
+  z-index:1;
+}
+
+#exercises #editExercises #addExercise{
+  position: fixed;
+  z-index:1;
+  width: 200px;
+  height: 400px;
+  overflow: auto;
+
+}*/
+
+
+#unit{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+#link{
+  cursor: pointer;
+  z-index:1;
+}
+
+
+h1{
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  font-size: 5vw;
+  z-index:1;
+}
+
+
+button {
+  background-color: #7364D2;
+  font-size: large;
+  border-color: black;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+  padding: 7px;
+  margin: 10px;
+}
+
+p{
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 2px;
+
+}
+
+.content {
+  position: relative;
+  top: -10rem;
+}
